@@ -61,5 +61,5 @@ development are indicated in '( )'
 Author
 ------
 This software is written by Hideya Kawaji.
-Copyright (c) 2018-2020 RIKEN, Tokyo Metropolitan Institute of Medical Science
+Copyright (c) 2018-2020 RIKEN & Tokyo Metropolitan Institute of Medical Science
 Distributed under Apache License 2.0.
