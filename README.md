@@ -7,7 +7,7 @@ Usage
 To perform all steps of error correction, please use 'correct' subcommand as:
 
 ```
-./ggct.sh correct -i INFILE.fq  -g GENOME [-p PASS(default:2, or 1)] [-t THREADS(default:10)] [options used in individual steps]
+./ggec.sh correct -i INFILE.fq  -g GENOME [-p PASS(default:2, or 1)] [-t THREADS(default:10)] [options used in individual steps]
 ```
 
 Each of the individual steps can be run by other subcommands,
@@ -15,10 +15,10 @@ Each of the individual steps can be run by other subcommands,
 
 ```
 # genome guided clustering (via BLAT)
-./ggct.sh ggc -i INFILE -g GENOME [-t THREADS(default:10)] [-l SEQLEN_MIN(default:1000, should not be changed for Canu error correction)]  [-e error_correction_seqnum_min(default:5)]
+./ggec.sh ggc -i INFILE -g GENOME [-t THREADS(default:10)] [-l SEQLEN_MIN(default:1000, should not be changed for Canu error correction)]  [-e error_correction_seqnum_min(default:5)]
 
 # error correction within each of the clusters (with Canu)
-./ggct.sh ecc -i INFILE -c CLUSTER_FILE('ggc' output) [-t THREADS(default:10)]
+./ggec.sh ecc -i INFILE -c CLUSTER_FILE('ggc' output) [-t THREADS(default:10)]
 ```
 
 
