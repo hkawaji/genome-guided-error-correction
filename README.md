@@ -51,7 +51,7 @@ development are indicated in '( )'
 * minimap2 (version 2.12)
 * setqk (version 1.3)
 * bedtools [bed12ToBed6, mergeBed, groupBy] (version 2.27.1)
-* samtools [bed12ToBed6, mergeBed, groupBy] (version 2.27.1)
+* samtools (version 1.7)
 * Canu (version 1.7.1)
 * R (with package 'stringr')
 * GNU awk (ver.4.1.3)
