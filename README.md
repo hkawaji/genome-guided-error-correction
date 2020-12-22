@@ -1,4 +1,4 @@
-# Genome-guided error correctoion 
+# Genome-guided error correction 
 for error prone sequencing of cDNA amplicon
 
 Usage
